@@ -1,0 +1,26 @@
+#ifndef X_INCLUDE_PP_TOKENS
+#define X_INCLUDE_PP_TOKENS
+
+enum PP_TOKENS {
+    PP_DEFINE = 257,
+    PP_UNDEF,
+    PP_IFDEF,
+    PP_IFNDEF,
+    PP_IFEQ,
+    PP_IFNEQ,
+    PP_IF,
+    PP_ELSE,
+    PP_ELIF,
+    PP_ENDIF,
+    PP_DEFEVAL,
+    PP_EVAL,
+    PP_INCLUDE,
+    PP_WARNING,
+    PP_ERROR,
+    PP_LINE,
+    PP_FILE,
+    PP_DATE,
+    PP_PRAGMA  
+};
+
+#endif /*X_INCLUDE_PP_TOKENS*/
